@@ -1,0 +1,70 @@
+-----------------------------------
+AUTHOR BY ONABANJI ABIOLA
+
+Master 1 CCN Project First Semester
+
+Creating a website for ECOLE DU SACRE-COEUR D'ORGERES.
+
+List for what will be in the website database
+------------------------------------------------------
+
+1) Registertion
+	a) email
+	b) password
+
+1) Inscription
+	a) numbering (primary key)
+	b) parents Nom
+	c) parents Prenom
+	d) Child Nom
+	e) Child Prenom
+	f) the class the child wants to enter
+	g) the age of the child
+	h) the year of inscription
+
+	
+	
+	
+---------------------------------------------------
+Creating the table for the data base
+---------------------------------------------------	
+  
+DROP DATABASE ecolesacrecoeur;
+CREATE DATABASE ecolesacrecoeur;
+USE ecolesacrecoeur;
+CREATE TABLE userd (
+    userd_Id int AUTO_INCREMENT NOT NULL,
+    email varchar(255) NOT NULL,
+    psw varchar(255) NOT NULL,
+    CONSTRAINT PK1 PRIMARY KEY (userd_Id));
+   
+CREATE TABLE parent (
+    parent_Id int AUTO_INCREMENT NOT NULL,
+    parent1 varchar(225),
+    parent2 varchar(225),
+    relationship1 varchar(225),
+    relationship2 varchar(225),
+    email1 varchar(225),
+    email2 varchar(225),
+    telPhone1 int (20),
+    telPhone2 int (20),
+    CONSTRAINT PK2 PRIMARY KEY (parent_Id));
+    ALTER TABLE parent ADD COLUMN userd_Id int NOT NULL,
+    ADD CONSTRAINT FK1 FOREIGN KEY (userd_Id) REFERENCES userd(userd_Id);
+    
+    
+CREATE TABLE child (
+    child_Id int AUTO_INCREMENT NOT NULL,
+    child_nom varchar(225) NOT NULL,
+    child_prenom varchar(225) NOT NULL,
+    age int (20) NOT NULL,
+    YrOfInsc varchar(225) NOT NULL,
+    CONSTRAINT PK3 PRIMARY KEY (child_Id));
+    ALTER TABLE child ADD COLUMN parent_Id int NOT NULL,
+    ADD CONSTRAINT FK2 FOREIGN KEY (parent_Id) REFERENCES parent(parent_Id);
+    
+    
+    
+    
+    
+    

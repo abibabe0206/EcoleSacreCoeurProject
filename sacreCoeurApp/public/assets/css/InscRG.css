@@ -1,0 +1,222 @@
+/*//AUTHOR BY ONABANJI ABIOLA*/
+.bdy
+{
+	
+	border : solid 3px;
+	width : 100%;  
+	height : 100%;
+	background-color:#808080;
+   
+    background-size: cover;
+
+}
+
+.mu ul
+{
+	display: none;
+}
+
+
+.mu ul li:hover 
+{
+	display: block;
+}
+	
+	
+.mu ul {
+	background: #0000a0; 
+	background: linear-gradient(top, #0000ff 0%, #0000ff 100%);  
+	background: -moz-linear-gradient(top, #0000ff 0%, #0000ff 100%); 
+	background: -webkit-linear-gradient(top, #0000ff 0%,#0000ff 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 20px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width : 50%;
+	border : solid 3px white;
+	
+}
+
+.mu ul li
+{
+	float: left;
+	border-right: 2px solid #bbb;
+	
+}
+
+.mu ul li:hover 
+{
+	background: #c0c0c0;
+	background: linear-gradient(top, #804040 0%, #804040 40%);
+	background: -moz-linear-gradient(top, #804040 0%, #804040 40%);
+	background: -webkit-linear-gradient(top, #804040 0%,#804040 40%);
+}
+		
+
+.mu ul li:hover a
+{
+	color: #fff;
+}
+	
+
+.mu ul li a 
+{
+	display: block; padding: 25px 40px;
+	color: red; text-decoration: none;
+	font-size: 18px;
+}
+
+
+.inbd
+{
+	
+	border-top : solid 3px;
+	
+	background-color:#c0c0c0;
+   
+    background-size: cover;
+	width: 100%;
+	height: 40em;
+}
+
+.g
+{
+	width: 150px;
+   height: 150px;
+   border: solid 2px blue;
+   border-radius: 15px;
+}
+
+.Mwp
+{
+	width: 500px;
+	height: 37em;
+	margin: 0 auto;
+	background: white;
+	padding: 5px;
+	margin-top: 15px;
+	border: solid 2px blue;
+	border-radius: 20px;
+}
+
+
+label {
+ color: black;
+ display: inline-block;
+ margin-left: 18px;
+ padding-top: 10px;
+ font-size: 16px;
+ text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+
+
+.rq:after 
+{
+	content:" *"; color: #f00;
+} 
+
+input {
+ font-family: "Helvetica Neue", Helvetica, sans-serif;
+ font-size: 12px;
+ outline: none;
+}
+ 
+
+input[type=password],
+input[type=email] {
+ color: #777;
+ padding-left: 10px;
+ margin: 10px;
+ margin-top: 12px;
+ margin-left: 18px;
+ width: 400px;
+ height: 35px;
+ border: 1px solid #c7d0d2;
+ border-radius: 20px;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+ 
+}
+ 
+
+input[type=password]:hover,
+input[type=email]:hover {
+ border: 1px solid #b6bfc0;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+ 
+
+input[type=email]:focus,
+input[type=password]:focus {
+ border: 1px solid #a8c9e4;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+
+
+input[type=submit] {
+ float: right;
+ margin-right: 20px;
+ margin-top: 20px;
+ width: 120px;
+ height: 35px;
+ font-size: 16px;
+ font-weight: bold;
+ color: #fff;
+ background-color: #004000; /*IE fallback*/
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#004000), to(#004000));
+ background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #004000 100%);
+ background-image: linear-gradient(top left 90deg, #acd6ef 0%, #004000 100%);
+ border-radius: 30px;
+ border: 1px solid #66add6;
+ box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+ cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#008040), to(#008040));
+ background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #008040 100%);
+ background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #008040 100%);
+}
+ 
+input[type=submit]:active {
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#6ec2e8), to(#b6e2ff));
+ background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+ background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+}
+
+input[type=button] {
+ float: left;
+ margin-right: 20px;
+ margin-top: 20px;
+ width: 150px;
+ height: 35px;
+ font-size: 16px;
+ font-weight: bold;
+ white-space: nowrap;
+ color: #fff;
+ background-color: #ff0000; /*IE fallback*/
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ff0000));
+ background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #ff0000 100%);
+ background-image: linear-gradient(top left 90deg, #acd6ef 0%, #ff0000 100%);
+ border-radius: 30px;
+ border: 1px solid #66add6;
+ box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+ cursor: pointer;
+}
+ 
+input[type=button]:hover {
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0080), to(#ff0080));
+ background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #ff0080 100%);
+ background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #ff0080 100%);
+}
+ 
+input[type=button]:active {
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#6ec2e8), to(#b6e2ff));
+ background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+ background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+}

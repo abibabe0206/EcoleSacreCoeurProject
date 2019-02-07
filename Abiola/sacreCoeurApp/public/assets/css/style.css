@@ -1,0 +1,274 @@
+.container 
+{
+	background-image: url("../img/children.jpg");
+	border : solid 3px;
+	width : 100em;  
+	height : 70em;
+	background-color:#f1f1f1;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+tr > td
+{
+	 color: purple;
+}
+
+ tr > td > img
+ {
+ 	width:90px;  height:90px;
+ }
+
+hr
+{
+	border: 3px solid Purple;
+	margin-bottom: 25px;
+}
+
+.circle-item img:hover
+{
+	box-shadow: 0 4px 8px 0 tomato;
+}
+
+
+#navs:hover, #bp:hover, #ac:hover, #sp:hover, #cn:hover
+{
+	box-shadow: 0 4px 8px 0 tomato;
+}
+
+
+.circle-container 
+{
+	
+	margin: 30em;
+	height : 0.1em;
+}
+
+.circle-item
+{
+	list-style: none;
+}
+
+
+
+
+#navs {
+	
+	position: absolute;
+  display: inline-block;
+ 	 padding: 31px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+ 
+ 
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+   -webkit-transition: .15s;
+	transition: .15s;
+  width: 170px;
+  height: 4px;
+  line-height: 55px;
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+a:focus { outline: none;}
+
+
+
+#navs>li, #navs:after {
+  position: absolute;
+  border: solid 6px tomato;
+  left: 0;
+  top: 0;
+  
+    white-space: nowrap;
+  width: 210px;
+  height: 50px;
+ 
+
+  background-color: blue;
+}
+
+
+#navs>li {
+  transition: all .16s;
+  -webkit-transition: all .16s;
+  -moz-transition: .16s;
+  list-style: none;
+}
+
+
+#navs:after {
+  content: attr(data-close);
+  z-index: 1;
+ 
+}
+
+#navs.active:after { content: attr(data-open); }
+
+
+#navs a {
+ 
+  
+  display: inline-block;
+ 
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  
+}
+
+
+#inf:hover
+{
+	box-shadow: 0 4px 8px 0 tomato;
+}
+
+#bp, #ac, #sp, #ag{
+	
+	position: absolute;
+  display: inline-block;
+ 	 padding: 31px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+   font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+   -webkit-transition: .15s;
+	transition: .15s;
+  width: 170px;
+  height: 3px;
+  line-height: 50px;
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+#inf, #cn{
+	
+	position: absolute;
+  display: inline-block;
+ 	 padding: 31px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+   font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+   -webkit-transition: .15s;
+	transition: .15s;
+  width: 150px;
+  height: 3px;
+  line-height: 50px;
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+#inf>li, #inf:after, #cn>li, #cn:after, #ag>li, #ag:after{
+  position: absolute;
+  border: solid 6px tomato;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 50px;
+ background-color: blue;
+}
+
+
+
+ #bp>li, #bp:after, #ac>li, #ac:after, #sp>li, #sp:after{
+  position: absolute;
+  border: solid 6px tomato;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+    white-space: nowrap;
+  width: 220px;
+  height: 50px;
+ background-color: blue;
+}
+
+
+#inf>li, #bp>li, #ac>li, #sp>li, #cn>li, #ag>li{
+  transition: all .16s;
+  -webkit-transition: all .16s;
+  -moz-transition: .16s;
+  list-style: none;
+}
+
+
+#inf:after, #bp:after, #ac:after, #sp:after, #cn:after, #ag:after{
+  content: attr(data-close);
+  z-index: 1; 
+}
+
+#inf.active:after, #bp.active:after, #ac.active:after, #sp.active:after, #cn.active:after, #ag.active:after
+ { content: attr(data-open); }
+
+
+#inf a, #bp a, #ac a, #sp a, #cn a, #ag a {
+ 
+  display: inline-block;
+   text-decoration: none;
+  color: #fff;
+  font-size: 1.5em; 
+}
+
+
+.g
+{
+	width: 525px;
+   height: 450px;
+	transform: rotate(230deg) translate(120px, 220px) rotate(-230deg);
+}
+
+
+.circle-item > *:nth-of-type(1)
+{
+	transform: rotate(15deg) translate(-10em, 210px) rotate(-15deg);
+}
+
+
+
+.circle-item > *:nth-of-type(2)
+{
+	transform: rotate(208deg) translate(18em, 150px) rotate(-208deg);
+}
+
+
+
+.circle-item > *:nth-of-type(3)
+{
+	transform: rotate(260deg) translate(18em, 250px) rotate(-260deg);}
+
+
+
+.circle-item > *:nth-of-type(4)
+{
+	transform: rotate(312deg) translate(36em, 260px) rotate(-312deg);
+
+}
+
+
+.circle-item > *:nth-of-type(5)
+{
+	transform: rotate(0deg) translate(36em, 80px) rotate(-0deg);
+}
+
+
+.circle-item > *:nth-of-type(6)
+{
+	transform: rotate(14deg) translate(20em, 150px) rotate(-14deg);
+}
+
+
+

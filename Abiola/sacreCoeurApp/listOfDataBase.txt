@@ -1,0 +1,22 @@
+Master 1 CCN Project First Semester
+
+Creating a website for ECOLE DU SACRE-COEUR D'ORGERES.
+
+List for what will be in the website database
+1) Project Educatif
+	a) numbering (primary key)
+	b) name of the project
+	c) description of the project
+	d) the student class that created the project
+	e) the year the project was made.
+
+2) Inscription
+	a) numbering (primary key)
+	b) parents Nom
+	c) parents Prenom
+	d) Child Nom
+	e) Child Prenom
+	f) the class the child wants to enter
+	g) the age of the child
+	h) the year of inscription
+	
